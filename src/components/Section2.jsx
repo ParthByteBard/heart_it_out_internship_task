@@ -40,12 +40,12 @@ const Section2 = () => {
   };
 
   return (
-    <div className="bg-gray-100 flex flex-col items-center py-8">
+    <div className="bg-gray-100 flex flex-col items-center py-8 max-w-[100%]">
       <h1 className="text-2xl font-bold mb-6">TV Show Search Results</h1>
       {loading ? (
         <p className="text-lg text-gray-700">Loading...</p>
       ) : (
-        <div className="w-11/12 space-y-8 lg:space-x-0 lg:space-y-10">
+        <div className="w-11/12 space-y-8 lg:space-x-0 lg:space-y-10 max-w-[100%]">
           {queryWords.map((word) => (
             <div key={word} className="flex-1 border border-gray-300 rounded-lg shadow-md mb-4 lg:mb-0">
               {/* Accordion Header */}
