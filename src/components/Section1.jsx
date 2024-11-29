@@ -11,7 +11,7 @@ const Section1 = () => {
   const handleDropdownChange = (e) => setSelectedDropdown(e.target.value);
 
   return (
-    <div className="flex justify-center items-center min-h-screen my-[50px]">
+    <div className="flex justify-center items-center min-h-screen my-[30px] mt-[15px]">
       <form className="bg-white drop-shadow-lg hover:drop-shadow-2xl shadow-slate-500 rounded-lg p-6 w-96">
         <h2 className="text-xl font-bold mb-4 text-center">Survey Form</h2>
 
